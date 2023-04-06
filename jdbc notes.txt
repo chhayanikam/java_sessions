@@ -1,0 +1,35 @@
+steps of db connectivity
+1. import the java.sql.* package.
+
+2. dsn ----> data source name 
+   info about the connected db is stored in a dsn
+
+ steps to create the dsn 
+  a. acces the control panel 
+  b. search for odbc. select it. A dialog Box  appears.
+  c. select user dsn -- if the program is for single user
+     select system dsn --  if the program is for multiple user
+  d. click add ---> sql server ---> finish
+  e. provide dsn name it cab be any name . This name we use in the java program .
+  f. select the radio button with sql server auth.
+      login name: sa
+      password: ____
+  g. next --- finish --- test 
+---------------------------------------------
+PreparedStatement interface helps to pass parameters to the query.
+
+PreparedStatement --- is a interface name
+PrepareStatement --- is a method name of Connection object
+
+
+
+
+
+
+
+
+
+
+
+
+
